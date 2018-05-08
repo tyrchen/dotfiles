@@ -45,7 +45,6 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -93,13 +92,6 @@ brew install speedtest_cli
 brew install tree
 brew install webkit2png
 brew install zopfli
-
-# Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
-brew install node
-
-# Install io.js
-brew install iojs
 
 # Remove outdated versions from the cellar.
 brew cleanup
