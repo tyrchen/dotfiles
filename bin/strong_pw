@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+pwgen -n1vs $1
