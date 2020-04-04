@@ -197,6 +197,9 @@ sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+# change snapshots folder
+defaults write com.apple.screencapture location /Users/tchen/snapshots
+
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
