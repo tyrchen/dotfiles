@@ -71,6 +71,7 @@
 			git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
 		fi \
 	}; f"
+	update = !git pull && git submodule update --init --recursive
 
 [apply]
 
@@ -164,3 +165,15 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Tyr Chen
+	email = tyr.chen@gmail.com
+
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[gpg]
+	program = bpb
+[commit]
+	gpgsign = true
+[protocol]
+	version = 1
