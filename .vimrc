@@ -40,7 +40,7 @@ Plugin 'godlygeek/tabular'
 " Plugin 'plasticboy/vim-markdown'
 " let g:vim_markdown_folding_disabled=1
 
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'jiangmiao/auto-pairs'
 

@@ -94,6 +94,7 @@ brew install webkit2png
 brew install zopfli
 brew install node
 brew install ag
+brew install dart
 
 # Remove outdated versions from the cellar.
 brew cleanup
